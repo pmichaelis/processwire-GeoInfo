@@ -1,0 +1,29 @@
+en,de,description,file,hash
+GeoInfo,GeoInfo,,site/modules/GeoInfo/GeoInfo.module.php,6a8e6003bb6de62b8432f04087ad0e67
+"Location data by IP address (local database) and by coordinates (OpenStreetMap Nominatim).","Standortdaten per IP-Adresse (lokale Datenbank) und per Koordinaten (OpenStreetMap Nominatim).",,site/modules/GeoInfo/GeoInfo.module.php,fd450a11ccf7998f411aad338cf1f6c4
+"GeoInfo: Dependencies are missing, please run ""composer install"" in the module directory.","GeoInfo: Abhängigkeiten fehlen, bitte „composer install“ im Modulordner ausführen.",,site/modules/GeoInfo/GeoInfo.module.php,5080bd84f3fd2ca7d8b4ba682c81860d
+"The database has been downloaded.","Die Datenbank wurde heruntergeladen.",,site/modules/GeoInfo/GeoInfo.module.php,e3218cd219ddcc0b15b8456b7013c3aa
+"The database could not be downloaded, see Setup > Logs > geoinfo.","Die Datenbank konnte nicht heruntergeladen werden, siehe Setup > Logs > geoinfo.",,site/modules/GeoInfo/GeoInfo.module.php,8b05d0eb49fed4c24723342f26780411
+"IP database",IP-Datenbank,,site/modules/GeoInfo/GeoInfo.module.php,4c10f3f9f7bba32484afb28f5ec5a702
+Status,Status,,site/modules/GeoInfo/GeoInfo.module.php,ec53a8c4f07baed5d8825072c89799be
+"Custom database file","Eigene Datenbankdatei",,site/modules/GeoInfo/GeoInfo.module.php,df42a21f3795c9e23e8e2b619e77b64c
+"Path to an MMDB file of the type “City”, e.g. MaxMind GeoLite2 City. Relative paths start at the ProcessWire root directory. Leave blank to use the free DB-IP City Lite database, which the module downloads and updates itself.","Pfad zu einer MMDB-Datei vom Typ „City“, z. B. MaxMind GeoLite2 City. Relative Pfade beginnen im ProcessWire-Hauptverzeichnis. Leer lassen, um die kostenlose Datenbank DB-IP City Lite zu verwenden, die das Modul selbst herunterlädt und aktualisiert.",,site/modules/GeoInfo/GeoInfo.module.php,258c47721074331010bd31544047772f
+"Update automatically","Automatisch aktualisieren",,site/modules/GeoInfo/GeoInfo.module.php,60436b9f14202497d722983237e6125a
+"Download the new DB-IP City Lite database every month","Jeden Monat die neue Datenbank DB-IP City Lite herunterladen",,site/modules/GeoInfo/GeoInfo.module.php,b4ebb0896caf012c27018a2599d49c5f
+"Uses LazyCron, which must be installed. Not used with a custom database file.","Verwendet LazyCron, das installiert sein muss. Gilt nicht für eine eigene Datenbankdatei.",,site/modules/GeoInfo/GeoInfo.module.php,bb3bfd43ec5b86bc679cc47120e2620a
+"Download now","Jetzt herunterladen",,site/modules/GeoInfo/GeoInfo.module.php,f2d2d0ecdfab3d7d6ff5099cad6b3b65
+"Download the current DB-IP City Lite database when saving","Beim Speichern die aktuelle Datenbank DB-IP City Lite herunterladen",,site/modules/GeoInfo/GeoInfo.module.php,4993cc70ef624b11993862e43d4d74b1
+"About 60 MB compressed, 130 MB unpacked. This can take a minute.","Etwa 60 MB komprimiert, 130 MB entpackt. Das kann eine Minute dauern.",,site/modules/GeoInfo/GeoInfo.module.php,9ce1d7d2339b4e01f5b253f08ab2cbc0
+Settings,Einstellungen,,site/modules/GeoInfo/GeoInfo.module.php,f4f70727dc34561dfde1a3c529b6205c
+Language,Sprache,,site/modules/GeoInfo/GeoInfo.module.php,4994a8ffeba4ac3140beb89e8d41f174
+"ISO code for city, region and country names, e.g. en or de. Falls back to English if a name is not available in this language.","ISO-Code für die Namen von Städten, Regionen und Ländern, z. B. de oder en. Ist ein Name in dieser Sprache nicht vorhanden, wird der englische verwendet.",,site/modules/GeoInfo/GeoInfo.module.php,4b7b922e1c84ee430ea189a3661bfb58
+"Trust proxy headers","Proxy-Headern vertrauen",,site/modules/GeoInfo/GeoInfo.module.php,40006193567ab13055fe101add97f243
+"Detect the visitor IP from X-Forwarded-For","Besucher-IP aus X-Forwarded-For ermitteln",,site/modules/GeoInfo/GeoInfo.module.php,0ecf9e5c727c44dd7b9a2f39afb206e7
+"Only enable this if the site runs behind a reverse proxy or load balancer. Otherwise visitors can fake their IP address.","Nur aktivieren, wenn die Website hinter einem Reverse Proxy oder Load Balancer läuft. Andernfalls können Besucher ihre IP-Adresse fälschen.",,site/modules/GeoInfo/GeoInfo.module.php,c759e72d6843b18cde666aa59460a9f5
+"Log errors","Fehler protokollieren",,site/modules/GeoInfo/GeoInfo.module.php,3508b781dcd645a43a8f782fce7f652b
+"Writes errors to Setup > Logs > geoinfo.","Schreibt Fehler nach Setup > Logs > geoinfo.",,site/modules/GeoInfo/GeoInfo.module.php,632f5e2cf69d0025d7d3b28e66092c3d
+"No database found at %s. IP lookups return null until a database is available.","Keine Datenbank unter %s gefunden. IP-Abfragen liefern null, bis eine Datenbank vorhanden ist.",,site/modules/GeoInfo/GeoInfo.module.php,6d1d9f82d9e79a91666f5b1d01f0d731
+"The database %s cannot be read, see Setup > Logs > geoinfo.","Die Datenbank %s kann nicht gelesen werden, siehe Setup > Logs > geoinfo.",,site/modules/GeoInfo/GeoInfo.module.php,189d333ebbe0251723e3c4f8d16a761b
+Type:,Typ:,,site/modules/GeoInfo/GeoInfo.module.php,e659b52eba1f0299b2d8ca3483919e72
+Built:,Erstellt:,,site/modules/GeoInfo/GeoInfo.module.php,97b7a9ee9ea994b67edc1fd5d75bd331
+Size:,Größe:,,site/modules/GeoInfo/GeoInfo.module.php,af645946859133f0fb13b23577b39ab5

@@ -1,0 +1,27 @@
+{
+  "name": "pmichaelis/geoinfo",
+  "description": "Location data by IP address (local MMDB database) and coordinates (OpenStreetMap Nominatim) for ProcessWire",
+  "type": "pw-module",
+  "keywords": [
+    "processwire",
+    "geoip",
+    "geolocation",
+    "mmdb",
+    "nominatim"
+  ],
+  "homepage": "https://github.com/pmichaelis/GeoInfo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philipp Michaelis",
+      "homepage": "https://github.com/pmichaelis"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "maxmind-db/reader": "^1.12"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
